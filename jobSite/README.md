@@ -67,7 +67,7 @@ Backend (`C:\Users\Hp\Desktop\HireNestBackend\Jobsphere\jobSite\src\main\resourc
 | `BREVO_SMTP_KEY` | Brevo SMTP key |
 | `GEMINI_API_KEY` | Gemini API key |
 
-
+Note: Chapa and Cloudinary keys are currently set directly in `application.properties`. For production, move them to environment variables.
 
 **API Overview (selected)**
 - Auth: `/api/v1/auth/*`, `/api/v1/admin/auth/*`
